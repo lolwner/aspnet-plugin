@@ -6,3 +6,6 @@ install:
 script:
   - xbuild /p:Configuration=Release Templarbit.sln
   - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./Templarbit.UnitTests/bin/Release/Templarbit.UnitTests.dll
+branches:
+only:
+  - VisualStudio2015
