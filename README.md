@@ -1,6 +1,6 @@
 # ASP. NET Core Templarbit Plugin
 
-[![Build Status](https://travis-ci.org/templarbit/aspnet-plugin.svg?branch=VisualStudio2015)](https://travis-ci.org/templarbit/aspnet-plugin)
+[![Build Status](https://travis-ci.org/templarbit/aspnet-plugin.svg?branch=master)](https://travis-ci.org/templarbit/aspnet-plugin)
 
 # Usage
 1. Create account at https://app.templarbit.com/signup
