@@ -8,9 +8,10 @@ namespace Templarbit.Core
     internal static class HttpHelper
     {
         private const int TIMEOUT = 60000;
-        public static async Task<ApiResponse> DataPost(string url, string data, string privacyPolicyContentReport = "")
+        public static async Task<ApiResponse> DataPost(string url, string data)
         {
             var apiResponse = new ApiResponse();
+            string privacyPolicyContentReport = "";
             string responseString = string.Empty;
             try
             {
